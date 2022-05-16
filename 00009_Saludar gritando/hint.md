@@ -1,0 +1,1 @@
+Recordá que los resultados de funciones se pueden guardar en variables para usarlos más adelante.
