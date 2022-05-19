@@ -1,9 +1,9 @@
-it("Si hacemos obtenerNombreCompleto('Ada', 'Lovelace') debería retornar 'Ada Lovelace'", function() {
-  let resultado = obtenerNombreCompleto('Ada', 'Lovelace')
-  assert.equal(resultado, 'Ada Lovelace',`obtenerNombreCompleto('Ada', 'Lovelace') debería retornar 'Ada Lovelace' pero el resultado fue ${resultado}`);
+it("Si hacemos obtenerNombreCompleto('Nikola', 'Tesla') debería retornar 'Nikola Tesla'", function() {
+  let resultado = obtenerNombreCompleto('Nikola', 'Tesla')
+  assert.equal(resultado, 'Nikola Tesla',`obtenerNombreCompleto('Nikola', 'Tesla') debería retornar 'Nikola Tesla' pero el resultado fue ${resultado}`);
 })
 
-it("Si hacemos obtenerNombreCompleto('Alfonsina', 'Storni') debería retornar 'Alfonsina Storni'", function() {
-  let resultado = obtenerNombreCompleto('Alfonsina', 'Storni')
-  assert.equal(resultado, 'Alfonsina Storni',`obtenerNombreCompleto('Alfonsina', 'Storni') debería retornar 'Alfonsina Storni' pero el resultado fue ${resultado}`);
+it("Si hacemos obtenerNombreCompleto('Marie', 'Curie') debería retornar 'Marie Curie'", function() {
+  let resultado = obtenerNombreCompleto('Marie', 'Curie')
+  assert.equal(resultado, 'Marie Curie',`obtenerNombreCompleto('Marie', 'Curie') debería retornar 'Marie Curie' pero el resultado fue ${resultado}`);
 })
