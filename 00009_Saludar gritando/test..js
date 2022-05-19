@@ -1,9 +1,9 @@
-it("Si hacemos saludarGritando('Ada', 'Lovelace') debería retornar ¡Hola Ada Lovelace, un gusto conocerte!", function() {
-let resultado = saludarGritando('Ada', 'Lovelace')
-assert.equal(resultado, '¡Hola Ada Lovelace, un gusto conocerte!',`saludarGritando('Ada', 'Lovelace') debería retornar '¡Hola Ada Lovelace, un gusto conocerte!' pero el resultado fue ${resultado}`);
+it("Si hacemos saludarGritando('Alan', 'Turing') debería retornar ¡Hola Alan Turing, un gusto conocerte!", function() {
+let resultado = saludarGritando('Alan', 'Turing')
+assert.equal(resultado, '¡Hola Alan Turing, un gusto conocerte!',`saludarGritando('Alan', 'Turing') debería retornar '¡Hola Alan Turing, un gusto conocerte!' pero el resultado fue ${resultado}`);
 })
 
-it("Si hacemos saludarGritando('Alfonsina', 'Storni') debería retornar ¡Hola Alfonsina Storni, un gusto conocerte!", function() {
-let resultado = saludarGritando('Alfonsina', 'Storni')
-assert.equal(resultado, '¡Hola Alfonsina Storni, un gusto conocerte!',`saludarGritando('Alfonsina', 'Storni') debería retornar '¡Hola Alfonsina Storni, un gusto conocerte!' pero el resultado fue ${resultado}`);
+it("Si hacemos saludarGritando('Feli', 'Perez') debería retornar ¡Hola Feli Perez, un gusto conocerte!", function() {
+let resultado = saludarGritando('Feli', 'Perez')
+assert.equal(resultado, '¡Hola Feli Perez, un gusto conocerte!',`saludarGritando('Feli', 'Perez') debería retornar '¡Hola Feli Perez, un gusto conocerte!' pero el resultado fue ${resultado}`);
 })
