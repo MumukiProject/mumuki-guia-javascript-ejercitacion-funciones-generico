@@ -1,4 +1,4 @@
-it("Si hacemos obtenerDatosDeCiudad('Santa Fe', 545606, 'Argentina') debería retornar La ciudad de Santa Fe tiene una población de 545606 habitantes y está ubicada en Argentina", function() {
-let resultado = obtenerDatosDeCiudad('Santa Fe', 545606, 'Argentina')
-assert.equal(resultado, 'La ciudad de Santa Fe tiene una población de 545606 habitantes y está ubicada en Argentina',`obtenerDatosDeCiudad('Santa Fe', 545606, 'Argentina') debería retornar La ciudad de Santa Fe tiene una población de 545606 habitantes y está ubicada en Argentina pero el resultado fue ${resultado}`);
+it("Si hacemos obtenerDatosDeCiudad('Lima', 9674755, 'Perú') debería retornar La ciudad de Lima tiene una población de 9674755 habitantes y está ubicada en Perú", function() {
+let resultado = obtenerDatosDeCiudad('Lima', 9674755, 'Perú')
+assert.equal(resultado, 'La ciudad de Lima tiene una población de 545606 habitantes y está ubicada en Perú',`obtenerDatosDeCiudad('Lima', 545606, 'Perú') debería retornar La ciudad de Lima tiene una población de 545606 habitantes y está ubicada en Perú pero el resultado fue ${resultado}`);
 })
