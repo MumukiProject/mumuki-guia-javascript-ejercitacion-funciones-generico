@@ -1,9 +1,9 @@
-it("Si hacemos saludar('Ada') debería retornar 'Hola Ada, un gusto conocerte'", function() {
-  let resultado = saludar('Ada')
-  assert.equal(resultado, 'Hola Ada, un gusto conocerte',`saludar('Ada') debería retornar 'Hola Ada, un gusto conocerte' pero el resultado fue ${resultado}`);
+it("Si hacemos saludar('Grace') debería retornar 'Hola Grace, un gusto conocerte'", function() {
+  let resultado = saludar('Grace')
+  assert.equal(resultado, 'Hola Grace, un gusto conocerte',`saludar('Grace') debería retornar 'Hola Grace, un gusto conocerte' pero el resultado fue ${resultado}`);
 })
 
-it("Si hacemos saludar('Alfonsina') debería retornar 'Hola Alfonsina, un gusto conocerte'", function() {
-  let resultado = saludar('Alfonsina')
-  assert.equal(resultado, 'Hola Alfonsina, un gusto conocerte',`saludar('Alfonsina') debería retornar 'Hola Alfonsina, un gusto conocerte' pero el resultado fue ${resultado}`);
+it("Si hacemos saludar('Romi') debería retornar 'Hola Romi, un gusto conocerte'", function() {
+  let resultado = saludar('Romi')
+  assert.equal(resultado, 'Hola Romi, un gusto conocerte',`saludar('Romi') debería retornar 'Hola Romi, un gusto conocerte' pero el resultado fue ${resultado}`);
 })
