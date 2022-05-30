@@ -1,4 +1,4 @@
-> Definí una función `suspender` que reciba como argumento un string y devuelva el mismo string con tres puntos suspensivos al final:
+> Definí una función `darSuspenso` que reciba como argumento un string y devuelva el mismo string con tres puntos suspensivos al final:
 
 >
 ```javascript
