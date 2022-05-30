@@ -1,9 +1,9 @@
-it("Si hacemos saludarGritando('Alan', 'Turing') debería retornar ¡Hola Alan Turing, un gusto conocerte!", function() {
-let resultado = saludarGritando('Alan', 'Turing')
-assert.equal(resultado, '¡Hola Alan Turing, un gusto conocerte!',`saludarGritando('Alan', 'Turing') debería retornar '¡Hola Alan Turing, un gusto conocerte!' pero el resultado fue ${resultado}`);
+it("Si hacemos despedirEnSuspenso('Alan', 'Turing')  debería retornar Hasta luego Alan Turing...", function() {
+let resultado = despedirEnSuspenso('Alan', 'Turing')
+assert.equal(resultado, 'Hasta luego Alan Turing...',`despedirEnSuspenso('Alan', 'Turing') debería retornar 'Hasta luego Alan Turing...' pero el resultado fue ${resultado}`);
 })
 
-it("Si hacemos saludarGritando('Feli', 'Perez') debería retornar ¡Hola Feli Perez, un gusto conocerte!", function() {
-let resultado = saludarGritando('Feli', 'Perez')
-assert.equal(resultado, '¡Hola Feli Perez, un gusto conocerte!',`saludarGritando('Feli', 'Perez') debería retornar '¡Hola Feli Perez, un gusto conocerte!' pero el resultado fue ${resultado}`);
+it("Si hacemos despedirEnSuspenso('Feli', 'Perez') debería retornar Hasta luego Feli Perez...", function() {
+let resultado = despedirEnSuspenso('Feli', 'Perez')
+assert.equal(resultado, 'Hasta luego Feli Perez...',`despedirEnSuspenso('Feli', 'Perez') debería retornar 'Hasta luego Feli Perez...' pero el resultado fue ${resultado}`);
 })
