@@ -2,8 +2,8 @@
 
 >
 ```javascript
-ム suspender('tal vez')
+ム darSuspenso('tal vez')
   'tal vez...'
-ム suspender('en fin')
+ム darSuspenso('en fin')
   'en fin...'
 ```
