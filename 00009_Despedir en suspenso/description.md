@@ -2,5 +2,5 @@
 >
 ```javascript
 ム despedirEnSuspenso('Alan', 'Turing') 
-Hasta luego Alan Turing...
+'Hasta luego Alan Turing...'
 ```
