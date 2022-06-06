@@ -1,4 +1,4 @@
-> Definí una función `despedir` que tome por parámetros un nombre y devuelva un saludo que lo incluya.
+> Definí una función `despedir` que tome por parámetros un nombre y le diga `"Hasta luego"`.
 >
 ```javascript
 ム despedir('Gaby')
